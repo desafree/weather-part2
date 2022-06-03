@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./dist/main.js" defer></script>
+    <link rel="stylesheet" href="./dist/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Weather App</h1>
+    </header>
+    <main>
+      <form>
+        <input type="text" name="city" placeholder="enter a city" />
+        <button>Search</button>
+      </form>
+      <h5 class="unit">kelvin</h5>
+      <div class="meteo-container">
+        <h2 class="city">###</h2>
+        <h3 class="grade">###</h3>
+        <h4>Feels like: <span class="feel-grade">###</span></h4>
+        <h4>Humidity: <span class="humidity">###</span></h4>
+        <h4>Wind: <span class="wind">###</span></h4>
+      </div>
+    </main>
+    <div class="loading">
+      <img src="https://i.stack.imgur.com/kOnzy.gif" alt="" />
+    </div>
+  </body>
+</html>
